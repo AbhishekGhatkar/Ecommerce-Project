@@ -1,0 +1,106 @@
+.table-container {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin: 20px;
+
+
+}
+.emp-table{
+  padding: 10px;
+  border-radius: 20px;
+}
+.table-container .add-button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.table-container .add-button:hover {
+  background-color: #0056b3;
+}
+
+.shift-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.shift-table th, .shift-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.shift-table th {
+  background-color: #f2f2f2;
+}
+
+.shift-table .edit-button, .shift-table .delete-button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.shift-table .edit-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.shift-table .delete-button {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.status.active {
+  color: green;
+}
+
+.status.inactive {
+  color: red;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #0056b3;
+}
+#bt1{
+  background-color: #6090c2;
+  color: #fff;
+  width: 150px;
+  height: 25px;
+  border-radius: 8px;
+  margin-top: 50px;
+  margin-left: 80%;
+}
+#tr1{
+  background-color:#cac8c8;
+  padding: 10px;
+  width: 100%;
+}
+.table1{
+  width: 100%;
+  margin-top: 30px;
+  
+}
